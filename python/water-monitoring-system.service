@@ -1,0 +1,11 @@
+[Unit]
+Description=Water monitoring system Python script
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /home/pi/WaterMonitoringSystem.py
+
+[Install]
+WantedBy=multi-user.target
