@@ -1,0 +1,6 @@
+influxdb:
+  host: "x.x.x.x"
+  port: 8086
+  username: "watermonitoringsystem"
+  password: "something_secure"
+  database: "WaterMonitoringSystem"
